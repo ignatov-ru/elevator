@@ -51,7 +51,7 @@ export const controller = {
     }
 
     if (!bool && positionFloorY === undefined) {
-      app.stage.children.map((indicator: PIXI.DisplayObject) => {
+      app.stage.children.forEach((indicator: PIXI.DisplayObject) => {
         if (indicator.name?.startsWith("indicator_")) indicator.alpha = 0.4;
       });
     }
