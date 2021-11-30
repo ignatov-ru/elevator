@@ -2,11 +2,10 @@
   "name": "elevator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "homepage": "http://ignatov-ru.github.io/elevator",
   "scripts": {
     "start": "npx parcel serve src/index.html",
-    "build": "npm run build",
+    "build": "npx parcel build src/index.html --public-url /elevator/",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
