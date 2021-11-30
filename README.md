@@ -16,4 +16,4 @@
 
 Лифт готов к следующему запуску! &#128521;
 
-<div align="center"><img src="./readme_content/demo.gif" width='60%' /></div>
+<div align="center"><img src="./readme_content/demo.gif" width='30%' /></div>
